@@ -1,8 +1,7 @@
 # Home Assistant - WittIOT
  
-[![License][license-shield]](LICENSE)
 
-![HACS][hacs-shield]
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/custom-components/hacs)
 
  
 This integration is used to display weather data for ecowitt's gateway devices.
