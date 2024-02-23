@@ -18,7 +18,7 @@ This integration can be added to Home Assistant as a [custom HACS repository](ht
 1. Restart Home Assistant
 1. Click the button below, or in the HA UI go to "Configuration" -> "Integrations" click "+" and search for "WittIOT"
 
-[![Add integration][my-hass-add-integration-img]][my-hass-add-integration]
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PPw096&repository=ha-wittiot&category=integration)
 
 ### Manual
 1. Download the latest release from [here](https://github.com/PPw096/ha-wittiot/releases).
@@ -27,5 +27,12 @@ This integration can be added to Home Assistant as a [custom HACS repository](ht
 1. Restart Home Assistant
 1. Click the button below, or in the HA UI go to "Configuration" -> "Integrations" click "+" and search for "WittIOT"
 
-[![Add integration][my-hass-add-integration-img]][my-hass-add-integration]
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PPw096&repository=ha-wittiot&category=integration)
 
+## :bulb: Usage
+The following steps must be performed to set up this integration.
+1.Configure gateway devices to your LAN using the ws view plus or ecowitt app on your phone and then view the device IP address.
+1.Enter the IP address of the device in the integration, and the integration will obtain the data of the gateway device after a successful connection.
+
+![Step 1](./img/20240223161726.png)
+![Step 2](./img/20240223161811.png)
